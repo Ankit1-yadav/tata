@@ -36,7 +36,7 @@ export const NAV_LINKS = [
       description:"",
     link:"#" },
     {
-      title: 'HOME',
+      title: 'HOME BUILDER',
       icon: '/home.png',
       variant: 'green',
       description:
