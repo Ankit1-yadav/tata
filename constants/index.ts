@@ -124,43 +124,43 @@ export const NAV_LINKS = [
 
 export const APPLICATIONSDATA =[
   {
-      img: "/ben_1.png",
+      img: "/app_1.png",
       title: "Create a website using Html CSS and JavaScript",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
       text2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem. Lorem ipsum dolor",
   },
   {
-      img: "/ben_2.png",
+      img: "/app_2.png",
       title: "Complete portfolio website tutorial",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
   },
   {
-      img: "/ben_3.png",
+      img: "/app_3.png",
       title: "Bootstrap 5 Complete tutorial",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
   },
   {
-      img: "/ben_4.png",
+      img: "/app_4.png",
       title: "UIkit Complete tutorial",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
   },
   {
-      img: "/ben_5.png",
+      img: "/app_5.png",
       title: "Tailwind CSS card design",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
   },
   {
-    img: "/ben_5.png",
+    img: "/app_6.png",
     title: "Tailwind CSS card design",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
 },
 {
-  img: "/ben_5.png",
+  img: "/app_7.png",
   title: "Tailwind CSS card design",
   text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
 },
 {
-  img: "/ben_5.png",
+  img: "/app_8.png",
   title: "Tailwind CSS card design",
   text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
 }

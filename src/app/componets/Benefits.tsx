@@ -11,7 +11,7 @@ const Benefits = () => {
         {NEWDATA.map((data)=>(
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-4">
             <div className="p-4 rounded shadow h-full">
-            <Image src={data.img} alt="" height={32} width={32} className='h-10 mb-4 w-10 lg:h-[60px] lg:w-[60px] mx-auto'/>
+            <Image src={data.img} alt="" height={80} width={80} className='h-10 mb-4 w-10 lg:h-[60px] lg:w-[60px] mx-auto'/>
             <p className="text-center font-bold">{data.title}</p>
             <div className="text-sm text-center">{data.text}</div>
             <br />

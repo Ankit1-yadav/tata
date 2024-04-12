@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Banner = () => {
   return (
-    <section className='lg:px-32'>
+    <section className='lg:px-32 container'>
         {/* <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2'>
             {FEATURES.map((feature)=>(
                 <FeatureItem

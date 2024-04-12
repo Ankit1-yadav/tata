@@ -12,7 +12,8 @@ const Applications = () => {
         {APPLICATIONSDATA.map((data)=>(
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
             <div className="p-4 rounded shadow h-full mx-auto">
-            <Image src={data.img} alt="" height={32} width={32} className='h-32 mb-4 w-32 lg:h-[80px] lg:w-[80px] mx-auto" alt=""'/>
+            <Image src={data.img} alt="" height={200} width={200} className='h-10 mb-4 w-10 lg:h-[100px] lg:w-[100px] mx-auto'/>
+
             <p className="text-center font-bold uppercase">{data.title}</p>
             <div className="text-sm text-center">{data.text}</div>
             </div>
