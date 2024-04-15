@@ -166,3 +166,15 @@ body {
     margin-right: auto;
   }
 }
+
+.swiper img {
+  height: 95vh;
+}
+
+.box_size_one {
+  background-position: 50% !important;
+  background-size: cover !important;
+  height: 50%;
+  margin-bottom: 11px;
+  width: 300px;
+}

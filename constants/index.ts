@@ -165,3 +165,43 @@ export const APPLICATIONSDATA =[
   text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
 }
 ]
+
+
+export const BANNERDATA =[
+  {
+      img: "/banner1.png",
+      title: "",
+      text: "",
+      text2: "",
+  },
+  {
+      img: "/banner2.png",
+      title: "",
+      text: "",
+  },
+  {
+      img: "/banner3.png",
+      title: "ONE STEEL FOR EVERYONE",
+      text: "From fine aesthetics to ease of maintenance, Tata Structura benefits every customer who are looking for quality, beauty and strength for homes, no matter which part of the home-building process they are involved in.",
+  },
+  {
+      img: "/img1.jpg",
+      title: "Car shed",
+      text: "A parking shed is the safest space for your car. It protects your car from harsh weather, harmful UV rays, solar radiation and more. Just like the skin of your body, too much sunlight can have a major impact on your car in a negative way.",
+  },
+  {
+      img: "/banner5.png",
+      title: "Railings",
+      text: " Railings are not only functional elements in a structure but can    contribute to a great extent in enhancing the aesthetics of it.",
+  },
+  {
+    img: "/banner6.png",
+    title: "Industrial Segment",
+    text: "Tata Structura with its Industrial segment aims to make or do things better, crossing a range of disciplines associated with manufacturing industrial or consumer products.",
+},
+{
+  img: "/banner7.png",
+  title: "Airports",
+  text: " Airports designs are purpose oriented, basis the activity in various areas. Tata Structura focuses on the usage and activities while keeping the end consumer in mind in all their projects.",
+},
+]
