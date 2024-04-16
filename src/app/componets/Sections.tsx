@@ -1,50 +1,143 @@
-// "use client"
-// import React, { useEffect } from 'react';
-// import $ from 'jquery';
-// import 'owl.carousel';
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 
-// const Sections: React.FC = () => {
-//   useEffect(() => {
-//     const $owl = $('.owl-carousel');
-//     $owl.children().each(function (index) {
-//       $(this).attr('data-position', index);
-//     });
 
-//     $owl.owlCarousel({
-//       center: true,
-//       loop: true,
-//       items: 5,
-//     });
 
-//     $(document).on('click', '.owl-item>div', function () {
-//       const $speed = 300;
-//       $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
-//     });
 
-//     return () => {
-//       $owl.trigger('destroy.owl.carousel').removeClass('owl-loaded');
-//       $('.owl-stage-outer').children().unwrap();
-//     };
-//   }, []);
 
-  
-//   return (
-//     <section className='bg-blue-500'>
-//       <div className="container pt-10">
-//         <h2 className="text-center text-white">TATA STRUCTURA SECTIONS</h2>
-//         <div className="container">
-//         <div className="owl-carousel">
-//           <div><img src="/images/image1.jpg" alt="Image 1" />1</div>
-//           <div><img src="/images/image2.jpg" alt="Image 2" />2</div>
-//           <div><img src="/images/image3.jpg" alt="Image 3" />3</div>
-//           {/* Add more images here */}
-//         </div>
-//     </div>
+import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
 
-//       </div>
-//     </section>
-//   )
-// }
 
-// export default Sections
+const Sections = () => {
+  return (
+    <>
+    <div className='bg-blue-500'>
+        <div className="container sections py-10">
+            <h3 className='text-center text-white pb-10'>TATA STRUCTURA SECTIONS</h3>
+            <div>
+        <Swiper
+      effect={'coverflow'}
+      grabCursor={true}
+      centeredSlides={true}
+      navigation={true}
+      pagination={{ clickable: true }} 
+      slidesPerView={'auto'}
+      coverflowEffect={{
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      }}
+      modules={[ Navigation]}
+      className="mySwiper"
+      loop={true} 
+    >
+      <SwiperSlide>
+        <a href="#" className='no-underline'>
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white font-Mulish font-sans">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <a href="#">
+        <div className="item">
+        <div className="carosalimages">
+            <img src="/slider1.png"  />
+                </div>
+                <div className="text-center mt-6">
+            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
+            </div>
+        </div>
+        </a>
+      </SwiperSlide>
+     
+      
+    </Swiper>
+    </div>
+        </div>
+    </div>
+    
+  </>
+  )
+}
+
+export default Sections

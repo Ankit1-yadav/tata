@@ -25,8 +25,8 @@ const NewHero = () => {
             pagination={{
               clickable: true,
             }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
+            
+            modules={[Autoplay, Pagination]}
             className="mySwiper"
           >
           
@@ -36,7 +36,7 @@ const NewHero = () => {
                     <SwiperSlide>
                     <a href="#">
                     <div style={{ position: 'relative' }}>
-                        <Image src={data.img} alt="" width={2000} height={95} />
+                        <Image src={data.img} alt="" width={2000} height={95} className="bannerimg" />
                         <div
                         className={`lg:bg-gradient-to-l bg-gradient-to-b h-full flex lg:w-[80%] rounded-b-3xl ${data.title ? 'to-black from-transparent via-[#00000098]' : ''}`}
                         // className='lg:bg-gradient-to-l bg-gradient-to-b h-full flex lg:w-[80%] rounded-b-3xl to-black from-transparent  via-[#00000098]'

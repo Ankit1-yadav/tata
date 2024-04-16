@@ -155,6 +155,7 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .hide-scrollbar {
+
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
@@ -167,14 +168,121 @@ body {
   }
 }
 
-.swiper img {
+.bannerimg {
   height: 95vh;
 }
 
+.carosalimages
+{
+  width: 100px;
+}
+
+.sections .swiper-slide {
+  width: auto;
+}
+.carosalimages {
+  padding: 20px !important;
+  height: 165px;
+  width: 165px;
+  align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+}
+
+.item{
+  margin:20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.swiper-slide-active{
+  transform: scale(1.4);
+  transition: all .5s eas
+}
+
+.imgtxt {
+  display:none;
+}
+
+.swiper-slide-active .imgtxt{
+ display: block;
+}
+
+.swiper-slide-prev ,.swiper-slide-next{
+  transform: scale(1.2);
+  transition: all .5s ease;
+  /* margin: 0px 20px; */
+}
+
+.swiper-button-prev ,.swiper-button-next{
+  color: #fff !important;
+}
+
+.sections .swiper-slide-prev ,.sections .swiper-slide-next {
+  margin: 0px 20px;
+}
+
+
+multi_size {
+  display: flex;
+  padding: 0 34px 0 23px;
+}
+
+/* slider end  */
+
+/* feature product  */
+.row1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 11px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .box_size_one {
-  background-position: 50% !important;
-  background-size: cover !important;
+  width: 300px;
   height: 50%;
   margin-bottom: 11px;
-  width: 300px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.box_size_three {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 11px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.box_size_four {
+  width: 491px;
+  height: 240px;
+  margin-bottom: 11px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.multi_size{
+  margin-top:40px;
+}
+.box_size_one {
+  cursor: pointer;
+}
+.box_size_three, .box_size_four {
+  cursor: pointer;
+}
+.row1 {
+    position:relative;
+}
+.row2 {
+    position:relative;
+}
+.row3{
+  position: relative;
 }
