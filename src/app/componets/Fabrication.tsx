@@ -8,7 +8,7 @@ const Fabrication = () => {
                 <div className="row">
                     <div className="col-sm-12 pt-10">
                         <div className="stage_heading">
-                            <h3 className='text-center text-white'>FABRICATION WITH TATA STRUCTURA IS EASY</h3>
+                            <h3 className='text-center text-white lg:text-4xl'>FABRICATION WITH TATA STRUCTURA IS EASY</h3>
                         </div>
                         <ul className='flex mt-12'>
                             <li>

@@ -19,7 +19,7 @@ const Sections = () => {
     <>
     <div className='bg-blue-500'>
         <div className="container sections py-10">
-            <h3 className='text-center text-white pb-10'>TATA STRUCTURA SECTIONS</h3>
+            <h3 className='text-center text-white pb-10 lg:text-4xl'>TATA STRUCTURA SECTIONS</h3>
             <div>
         <Swiper
       effect={'coverflow'}

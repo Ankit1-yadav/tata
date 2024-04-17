@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Projects = () => {
   return (
     <section className='container'>
-        <h1 className='mt-10 font-bold text-center text-blue-500'>FEATURED PROJECTS</h1>
+        <h1 className='mt-10 font-bold text-center text-blue-500 lg:text-4xl'>FEATURED PROJECTS</h1>
         
         <div className="multi_size">
         <div className="row1">

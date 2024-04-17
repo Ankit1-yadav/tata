@@ -6,7 +6,7 @@ import { APPLICATIONSDATA } from '../../../constants'
 const Applications = () => {
   return (
     <section className='container'>
-        <h1 className='mt-10 font-bold text-center '>TATA STRUCTURA APPLICATIONS</h1>
+        <h1 className='mt-10 font-bold text-center lg:text-4xl '>TATA STRUCTURA APPLICATIONS</h1>
         
         <div className="flex flex-wrap justify-center mb-10 lg:mb-20">
         {APPLICATIONSDATA.map((data)=>(

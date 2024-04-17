@@ -6,7 +6,7 @@ const Benefits = () => {
   return (
     <>
     <section className='container'>
-        <h1 className='mt-10 font-bold text-center'>TATA STRUCTURA HOLLOW SECTION BENEFITS</h1>
+        <h1 className='mt-10 font-bold text-center lg:text-4xl'>TATA STRUCTURA HOLLOW SECTION BENEFITS</h1>
         
         <div className="flex flex-wrap justify-center mb-10 lg:mb-20 p-4">
         {NEWDATA.map((data)=>(
