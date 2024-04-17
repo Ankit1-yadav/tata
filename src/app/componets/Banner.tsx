@@ -25,8 +25,9 @@ const Banner = () => {
         <a className="archite" href="/Architectpage">
         <div className="mx-auto">
         {/* <img src="" className="mx-auto" alt=""> */}
+        {/* <img src={feature.icon}  alt="" /> */}
         <Image src={feature.icon} alt="icon" width={80} height={80} className='hover:scale-110' />
-        <h2 className="text-black py-[15px] text-[18px] uppercase hover:scale-110">{feature.title}</h2>
+        <h2 className="text-black py-[15px] text-[18px] uppercase hover:scale-110 ml-n15">{feature.title}</h2>
         </div>
         </a>
         </div>

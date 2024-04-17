@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 const Benefits = () => {
   return (
+    <>
     <section className='container'>
         <h1 className='mt-10 font-bold text-center'>TATA STRUCTURA HOLLOW SECTION BENEFITS</h1>
         
@@ -21,6 +22,8 @@ const Benefits = () => {
              ))}
         </div>
     </section>
+
+       </>
   )
 }
 
