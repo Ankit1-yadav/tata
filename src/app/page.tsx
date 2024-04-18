@@ -6,6 +6,7 @@ import NewHero from "./componets/NewHero";
 import Sections from "./componets/Sections";
 import Projects from "./componets/Projects";
 import Fabrication from "./componets/Fabrication";
+import New from "./componets/New";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
     {/* <Sections/> */}
     
     <Applications/>
+
+    {/* <New/> */}
     </>
   );
 }

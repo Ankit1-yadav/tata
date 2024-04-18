@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 
 
 import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
+import { SECTION1 } from '../../../constants';
 
 
 const Sections = () => {
@@ -39,98 +40,21 @@ const Sections = () => {
       className="mySwiper"
       loop={true} 
     >
-      <SwiperSlide>
-        <a href="#" className='no-underline'>
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
+      {SECTION1.map((data)=>(
+        <SwiperSlide>
+                <a href="#" className='no-underline'>
+                <div className="item">
+                <div className="carosalimages">
+                    <img src={data.img}  />
+                        </div>
+                        <div className="text-center mt-6">
+                    <h6 className="imgtxt text-white font-Mulish font-sans">Circular Hollow <br/>Section Yst 210</h6>
+                    </div>
                 </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white font-Mulish font-sans">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <a href="#">
-        <div className="item">
-        <div className="carosalimages">
-            <img src="/slider1.png"  />
-                </div>
-                <div className="text-center mt-6">
-            <h6 className="imgtxt text-white">Circular Hollow <br/>Section Yst 210</h6>
-            </div>
-        </div>
-        </a>
-      </SwiperSlide>
+                </a>
+        </SwiperSlide>
+      ))}
      
-      
     </Swiper>
     </div>
         </div>

@@ -182,8 +182,8 @@ body {
 }
 .carosalimages {
   padding: 20px !important;
-  height: 165px;
-  width: 165px;
+  height: 155px;
+  width: 155px;
   align-items: center;
     background: #fff;
     border-radius: 50%;
@@ -538,7 +538,7 @@ body {
   /* opacity: .5; */
 }
 
-.stages ul li div span {
+/* .stages ul li div span {
   background-position: 50% !important;
   background-size: cover !important;
   border-radius: 50%;
@@ -556,7 +556,26 @@ body {
   position: absolute;
   top: 87px;
   width: 80%;
+} */
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
 }
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  --swiper-navigation-top-offset: 40%;
+  --swiper-navigation-sides-offset: -2px;
+  --swiper-navigation-size: 40px;
+}
+
 
 
 
@@ -569,3 +588,113 @@ body {
 
 
 
+/* stage  */
+.stages {
+  background-color: #3d7edb;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.stages ul:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 80%;
+  top: 87px;
+  /* background-image: url(../images/arrow.png); */
+  background-size: cover;
+  background-position: center;
+  border-top: 2px dashed #fff;
+}
+
+
+
+.stage_heading {
+  margin-bottom: 40px;
+}
+
+.stage_heading h6 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Conv_MYRIADPRO-BOLD';
+}
+
+.stage_heading p {
+  color: #fff;
+  text-align: center;
+}
+
+.stage_heading p span {
+  display: block;
+}
+
+.stages ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.stages ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.stages ul li div {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  padding: 5px;
+  border: 2px dashed #fff;
+  background-color: #3d7edb;
+  position: relative;
+}
+
+.stages ul li div span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.stages ul li p {
+  font-family: 'Conv_MYRIADPRO-SEMIBOLD';
+  color: #fff;
+  font-size: 16px;
+  width: 72%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* stage end  */
+
+.indexblk {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.indexblk h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0px;
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+.indexblk img {
+  width: 65px;
+  height: 70px;
+}

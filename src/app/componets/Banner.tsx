@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const Banner = () => {
   return (
-    <section className='lg:px-32 container'>
-        {/* <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2'>
+    <section className='lg:px-32 container mt-10'>
+      {/* <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2'>
             {FEATURES.map((feature)=>(
                 <FeatureItem
                  title={feature.title}
@@ -18,21 +18,20 @@ const Banner = () => {
             ))}
         </ul> */}
 
-        <div className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2">
-        {FEATURES.map((feature)=>(
+      <div className="container">
+        <div className="row">
+          {FEATURES.map((data) => (
+            <div className="col-md-3 col-6"><a className="" href="#">
+              <div className="indexblk">
+                <img src={data.icon} className="mx-auto" alt="" />
+                <h2 className="text-black py-[15px] text-[18px] uppercase">{data.title}</h2>
+              </div>
+            </a>
+            </div>
+          ))}
 
-        <div className="col-md-3 col-6 mx-auto ">
-        <a className="archite" href="/Architectpage">
-        <div className="mx-auto">
-        {/* <img src="" className="mx-auto" alt=""> */}
-        {/* <img src={feature.icon}  alt="" /> */}
-        <Image src={feature.icon} alt="icon" width={80} height={80} className='hover:scale-110' />
-        <h2 className="text-black py-[15px] text-[18px] uppercase hover:scale-110 ml-n15">{feature.title}</h2>
         </div>
-        </a>
-        </div>
-        ))}
-    </div>
+      </div>
 
     </section>
   )
