@@ -17,9 +17,9 @@ const Hero = () => {
   return (
     <>
       <div style={{ position: 'relative' }}>
-      <Image src="/img1.jpg" alt="" width={2000} height={80} />
+      <Image src="/AboutUs.jpg" alt="" width={2000} height={80} className='bannerimg'/>
       <div
-      className='lg:bg-gradient-to-l bg-gradient-to-b h-full flex lg:w-[80%] rounded-b-3xl to-black from-transparent  via-[#00000098]'
+      className='lg:bg-gradient-to-l bg-gradient-to-b h-full flex  rounded-b-3xl to-black from-transparent  via-[#00000098]'
         style={{
           position: 'absolute',
           top: 0,
@@ -32,11 +32,11 @@ const Hero = () => {
           fontSize: '24px', // Example font size
         }}
       >
-       <div className="mt-[40vh] mx-5 lg:mx-[10vh] text-white lg:w-1/2">
-        <div className="mb-3">
-          <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8">Car shed</h4>
+       <div className="mx-52 mt-80">
+        <div className="mb-3 mt-10">
+          <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8 text-center">ABOUT US</h4>
           </div>
-          <p className="lg:text-xl">A parking shed is the safest space for your car. It protects your car from harsh weather, harmful UV rays, solar radiation and more. Just like the skin of your body, too much sunlight can have a major impact on your car in a negative way.</p>
+          <p className="lg:text-base text-sm lg:mx-0 text-center mx-20">Tata Steel’s Tubes Strategic Business Unit manufactures structural steel tubes under the brand name of 'Tata Structura'. Made of the finest hot rolled steel coils from Tata Steel, the Tata Structura Steel Hollow sections are amongst the best construction products across the country.</p>
           </div>
       </div>
     </div>

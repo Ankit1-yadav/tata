@@ -312,3 +312,32 @@ export const SECTION1 =[
   title: "Call fabricator to build your gate and supervise",
 }
 ]
+
+
+export const ABOUT_PICTURE =[
+  {
+      img: "/about1.png",
+      title: "INTEGRITY",
+      text:"We will be fair, honest, transparent and ethical in our conduct; everything we do must stand the test of public scrutiny.",
+  },
+  {
+    img: "/about2.png",
+    title: "EXCELLENCE",
+    text:"We will be passionate about achieving the highest standards of quality, always promoting meritocracy.",
+  }, 
+  {
+    img: "/about3.png",
+    title: "UNITY",
+    text:"We will invest in our people and partners, enable continuous learning, and build caring and collaborative relationships based on trust and mutual respect.    ",
+  }, 
+  {
+    img: "/about4.png",
+    title: "RESPONSIBILITY",
+    text:"We will integrate environmental and social principles in our businesses, ensuring that what comes from the people goes back to the people many times over.    ",
+  }, 
+  {
+    img: "/about5.png",
+    title: "PIONEERING",
+    text:"We will be bold and agile, courageously taking on challenges, using deep customer insight to develop innovative solutions.    ",
+  },
+]

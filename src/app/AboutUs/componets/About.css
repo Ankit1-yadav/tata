@@ -1,0 +1,26 @@
+h5  {
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+p{
+    color: #fff;
+    
+}
+
+.about-ta-head p {
+    font-size: 1.2rem;
+    margin: 15px auto;
+    width: 80%;
+}
+.about-para {
+    text-align: left;
+    font-size: 1.2rem;
+}
+.about-picture {
+    font-size: 12px;
+    margin: 3rem auto;
+    width: 80%;
+}
