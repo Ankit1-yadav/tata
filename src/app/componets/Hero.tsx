@@ -16,8 +16,8 @@ import React from 'react';
 const Hero = () => {
   return (
     <>
-      <div style={{ position: 'relative' }}>
-      <Image src="/AboutUs.jpg" alt="" width={2000} height={80} className='bannerimg'/>
+      <div style={{ position: 'relative' }} className='bg-blue-500'>
+      <Image src="/AboutUs.jpg" alt="" width={2000} height={80} className='bannerimg rounded-b-3xl'/>
       <div
       className='lg:bg-gradient-to-l bg-gradient-to-b h-full flex  rounded-b-3xl to-black from-transparent  via-[#00000098]'
         style={{

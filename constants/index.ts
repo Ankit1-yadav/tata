@@ -335,9 +335,28 @@ export const ABOUT_PICTURE =[
     title: "RESPONSIBILITY",
     text:"We will integrate environmental and social principles in our businesses, ensuring that what comes from the people goes back to the people many times over.    ",
   }, 
-  {
-    img: "/about5.png",
-    title: "PIONEERING",
-    text:"We will be bold and agile, courageously taking on challenges, using deep customer insight to develop innovative solutions.    ",
-  },
+  // {
+  //   img: "/about5.png",
+  //   title: "PIONEERING",
+  //   text:"We will be bold and agile, courageously taking on challenges, using deep customer insight to develop innovative solutions.    ",
+  // },
 ]
+
+
+export const AWARDS =[
+  {
+      img: "/aboutimg1.jpg",
+      title: "INTEGRITY",
+      text:'These were the photographs taken at the "Construction Awards event organized by Kattumana Thozhil". Kattumana Thozhil is a local language (Tamil) magazine which writes about the construction industry. They have a readership of 25,000. The event was attended by experts in the field and had a footfall of 700. One of the photographs has our RSM receiving an award from the governor of Tamil Nadu. The award is given for bringing innovative material into the market for launching the 355 grade steel tubes.',
+  },
+  {
+    img: "/aboutimg2.jpg",
+    title: "EXCELLENCE",
+    text:"Tubes SBU recognized for Innovation & Technology at the Tata Motors vendor meet in Macau in September 2013.",
+  }, 
+  {
+    img: "/aboutimg3.jpg",
+    title: "UNITY",
+    text:'Tata Structura has been awarded : "The best steel company of the year" by the Construction Times Award 2016. Congratulations to the Tata Structura Parivaar !!!',
+  }
+] 

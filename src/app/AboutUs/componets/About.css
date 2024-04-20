@@ -24,3 +24,49 @@ p{
     margin: 3rem auto;
     width: 80%;
 }
+
+.appro-img {
+    /* margin-left: 105px; */
+    width: 200px;
+}
+
+.cert-img .cert-view button {
+    background-color: #fff;
+    border: 1px solid #0d6efd;
+    color: #3d7edb;
+    font-size: 12px;
+    margin: 10px 15px;
+    width: 50px;
+}
+
+.swiper-button-next:after {
+    content: 'next';
+    font-size: 20px;
+}
+
+.swiper-button-prev:after {
+    content: 'prev';
+    font-size: 20px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+}
+
+.footerimg {
+    height: 80px;
+    margin-bottom: 44px;
+    margin-top: 46px;
+    width: 195px;
+}
+
+ .footercontent {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    margin-right: 0;
+}

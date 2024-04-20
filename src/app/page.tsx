@@ -28,7 +28,7 @@ export default function Home() {
     
     <Applications/>
 
-    <New/>
+    {/* <New/> */}
     </>
   );
 }

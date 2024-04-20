@@ -6,7 +6,7 @@ import { ABOUT_PICTURE } from '../../../../constants';
 
 const About = () => {
   return (
-    <section className='bg-blue-400'>
+    <section className='bg-blue-500'>
       <div className="container">
         <div className="about-heading pt-10">
           <div className="about-ta-head">
@@ -40,26 +40,30 @@ const About = () => {
             <h5 className="h5title"><b>VALUES</b></h5>
           </div>
 
-         
 
 
-        
+
+
           <div className="about-picture">
             <div className="row">
-            {ABOUT_PICTURE.map((data)=>(
+              {ABOUT_PICTURE.map((data, index) => (
 
-              <div className="col-md-6 col-12">
-                <img alt="Integrity" src={data.img} className="img-about" />
-                <h6 className='text-white mt-3'>{data.title}</h6>
-                <p className="text-align-left text-[15px]">{data.text}</p>
+                <div className="col-md-6 col-12">
+                  <img alt="Integrity" src={data.img} className="img-about" />
+                  <h6 className='text-white mt-3'>{data.title}</h6>
+                  <p className="text-align-left text-[15px]">{data.text}</p>
+                </div>
+              ))}
+
+            </div>
+
+            <div className="row  brain-img-content justify-center" >
+              <div className="col-md-6 col-12 ">
+                {/* <img src="./static/media/Tata Structura Website_About_us_page_A_R1.00c3a509a2ffa187b0b1.png" alt="" >     */}
+                <img src="/about5.png" alt="" className="img-about" />
+                <h6 className='text-white mt-3'>PIONEERING</h6>
+                <p className="text-align-left text-[15px]">We will be bold and agile, courageously taking on challenges, using deep customer insight to develop innovative solutions.</p>
               </div>
-            //   <div className="col-md-6 col-12">
-            //     <img alt="Excellence" src="./static/media/Tata-Structura-Website_About_us_page_A_R1_08.fd320c5c4e0035a841b0.png" className="img-about" />
-            //     <h6>EXCELLENCE</h6>
-            //     <p className="text-align-left">We will be passionate about achieving the highest standards of quality, always promoting meritocracy.</p>
-            //   </div>
-                            ))}
-
             </div>
           </div>
         </div>
