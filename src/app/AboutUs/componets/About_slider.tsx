@@ -18,7 +18,7 @@ import { AWARDS } from '../../../../constants';
 export default function App() {
     return (
         <>
-            <div className="container">
+            <div className="container w-[60%]">
                 <Swiper
                     // effect={'flip'}
                     grabCursor={true}
@@ -29,10 +29,10 @@ export default function App() {
                     className="mySwiper"
                 >
 
-                    {AWARDS.map((data) => (
+                    {AWARDS.map((data,index) => (
 
-                        <SwiperSlide>
-                            <div className='new text-center mx-auto'>
+                        <SwiperSlide  key={index} style={{ width: '836px' }} >
+                            <div className='w-[60%] text-center mx-auto'>
                             <div className="py-3 relative shadow-xl rounded-3xl bg-white mx-auto mb-5 ">
                                 <div className="uppercase text-center text-2xl mb-2 text-blue-500 font-bold">AWARDS AND RECOGNITIONS</div>
                                 <img src={data.img} className='mx-auto h-[18rem] rounded-3xl' />
