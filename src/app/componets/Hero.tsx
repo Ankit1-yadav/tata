@@ -1,20 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-// import img1 from '/pu';
-// import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
+type HeroProps = {
+  title: string;
+  subtitle: string;
+  img: string;
+}
 
-// import './styles.css';
-
-// import required modules
-// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
-
-const Hero = (props) => {
+const Hero: React.FC<HeroProps> = (props) => {
   return (
     <>
       <div style={{ position: 'relative' }} className='bg-blue-500'>
@@ -59,5 +52,7 @@ const Hero = (props) => {
     </>
   )
 }
+
+
 
 export default Hero
