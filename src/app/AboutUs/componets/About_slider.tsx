@@ -32,12 +32,14 @@ export default function App() {
                     {AWARDS.map((data) => (
 
                         <SwiperSlide>
-                            <div className="py-3 relative shadow-xl rounded-3xl bg-white mx-auto mb-5 new">
+                            <div className='new text-center mx-auto'>
+                            <div className="py-3 relative shadow-xl rounded-3xl bg-white mx-auto mb-5 ">
                                 <div className="uppercase text-center text-2xl mb-2 text-blue-500 font-bold">AWARDS AND RECOGNITIONS</div>
                                 <img src={data.img} className='mx-auto h-[18rem] rounded-3xl' />
 
                                 <div className="text-center mt-2">{data.text}
                                 </div>
+                            </div>
                             </div>
                         </SwiperSlide>
 

@@ -14,7 +14,7 @@ const page = () => {
       <Certificates/>
       <About_slider/>
       {/* <Product/> */}
-      <New1/>
+      {/* <New1/> */}
     </div>
   )
 }
