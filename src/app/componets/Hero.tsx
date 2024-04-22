@@ -13,11 +13,12 @@ import React from 'react';
 // import required modules
 // import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-const Hero = () => {
+
+const Hero = (props) => {
   return (
     <>
       <div style={{ position: 'relative' }} className='bg-blue-500'>
-      <Image src="/AboutUs.jpg" alt="" width={2000} height={80} className='bannerimg rounded-b-3xl'/>
+      <Image src={props.img} alt="" width={2000} height={80} className='bannerimg rounded-b-3xl'/>
       <div
       className='lg:bg-gradient-to-l bg-gradient-to-b h-full flex  rounded-b-3xl to-black from-transparent  via-[#00000098]'
         style={{
@@ -32,11 +33,11 @@ const Hero = () => {
           fontSize: '24px', // Example font size
         }}
       >
-       <div className="mx-52 mt-80">
+       <div className="mt-80 mx-auto w-[80%]">
         <div className="mb-3 mt-10">
-          <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8 text-center">ABOUT US</h4>
+          <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8 text-center">{props.title}</h4>
           </div>
-          <p className="lg:text-base text-sm lg:mx-0 text-center mx-20">Tata Steel’s Tubes Strategic Business Unit manufactures structural steel tubes under the brand name of 'Tata Structura'. Made of the finest hot rolled steel coils from Tata Steel, the Tata Structura Steel Hollow sections are amongst the best construction products across the country.</p>
+          <p className="lg:text-base text-sm lg:mx-0 text-center mx-20">{props.subtitle}</p>
           </div>
 
           <svg

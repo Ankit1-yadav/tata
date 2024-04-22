@@ -1003,3 +1003,13 @@ button span {
     left: 0;
   } */
 }
+
+.dropdown {
+  display: none;
+}
+
+/* Show the dropdown when its parent is hovered */
+.menu-items:hover .dropdown {
+  display: block;
+}
+
