@@ -4,7 +4,7 @@ import About from './componets/About'
 import Certificates from './componets/Certificates '
 import About_slider from './componets/About_slider'
 import New1 from './componets/New1'
-// import Product from './componets/Product'
+import Product from './componets/Product'
 
 const page = () => {
   return (
@@ -13,7 +13,7 @@ const page = () => {
       <About/>
       <Certificates/>
       <About_slider/>
-      {/* <Product/> */}
+      <Product/>
       {/* <New1/> */}
     </div>
   )

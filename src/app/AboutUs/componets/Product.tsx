@@ -1,54 +1,40 @@
-// import React from 'react'
-// import "./About.css"
+import React from 'react'
+import { PRODUCT } from '../../../../constants'
 
 
-// const Product = () => {
-//     return (
-//         <div className="product-info bg-blue-500 pt-10">
-//             <div className="container">
-//                 <div className="row">
-//                     <div className="col-sm-12">
-//                         <div className="product-heading mb-5">
-//                             <h1 className='text-center text-white'> PRODUCT WINDOW </h1>
-//                         </div>
+const Product = () => {
+    return (
+        <div className="bg-blue-500">
+            <div className="container pb-5">
+            <h4 className='text-center text-white pt-5'> PRODUCT WINDOW </h4>
+                <div className="flex justify-between pt-10">
+                    {PRODUCT.map((data)=>(
+                         <div>
+                         <div className="footercontent rounded-lg bg-white">
+                             <h6 className="mt-2 p-2">TATA STRUCTURA <br /> YST 210</h6>
+                             {/* <h6 className="mt-2 p-2 w-[80%]">{data.title}</h6> */}
+                             <img alt="" src="/product1.png" className="footerimg" />
+                         </div>
+                         <div>
+                             <div className="flex justify-between">
+                                 <div className='flex items-center new1'>
+                                     <a href="#" className='no-underline p-1 border border-white text-white text-xs rounded px-1 transition-all duration-300 ease-in-out hover:bg-white'>Read More</a></div>
+                                 <div className='flex'>
+                                     <div  className='bg-white rounded-full p-2 m-2'><a href="#"><img src="/pdf.png" alt="" width={20} height={20}/></a></div>
+                                     <div  className='bg-white rounded-full p-2 m-2'><a href="#"><img src="/cart.png" alt="" width={20} height={20}/></a></div>
+                                 </div>
+                             </div>
+                         </div>
+                 
+                     </div>
+                    ))}
+                   
+                </div>
+            </div>
+        </div>
+    
+  )
+}
 
-//                         <ul className="footerblock">
-                           
-//                                 <li className="card-pro">
-//                                     <div className="footercontent rounded-lg ">
-//                                         <h6 className="mt-2">TATA STRUCTURA <br /> YST 210</h6>
-//                                         <img src="/product1.png" alt="" className='footerimg' />
-//                                     </div>
-//                                     <div>
-//                                     <div className="product-submit hover:scale-110 duration-700"><a href="/yst210"> <button
-//                 className="readmore py-1 rounded-md">Read More</button></a></div>
+export default Product
 
-//                 <div>
-//                 <div className="pd-icons">
-//         <div className="product-icons hover:scale-110 duration-700">
-//             <a href="#">
-//                 {/* <img alt="" src="" width="20px" height="20px"> */}
-//                 <img src="/public/pdf_icon.png" alt="" width="20px" height="20px" />
-
-//                 </a>
-//         </div>
-//         <div className="product-icons hover:scale-110 duration-700">
-//             <a href="#"><img alt="" src="" width="20px" height="20px"></a>
-//         </div>
-//     </div>
-//                 </div>
-
-//                                     </div>
-//                                 </li>
-                        
-                            
-
-//                         </ul>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Product

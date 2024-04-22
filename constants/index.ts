@@ -360,3 +360,26 @@ export const AWARDS =[
     text:'Tata Structura has been awarded : "The best steel company of the year" by the Construction Times Award 2016. Congratulations to the Tata Structura Parivaar !!!',
   }
 ] 
+
+export const PRODUCT =[
+  {
+      img: "/about1.png",
+      title: "TATA STRUCTURA YST 210",
+      text:"We will be fair, honest, transparent and ethical in our conduct; everything we do must stand the test of public scrutiny.",
+  },
+  {
+    img: "/about2.png",
+    title: "EXCELLENCE",
+    text:"We will be passionate about achieving the highest standards of quality, always promoting meritocracy.",
+  }, 
+  {
+    img: "/about3.png",
+    title: "UNITY",
+    text:"We will invest in our people and partners, enable continuous learning, and build caring and collaborative relationships based on trust and mutual respect.    ",
+  }, 
+  {
+    img: "/about4.png",
+    title: "RESPONSIBILITY",
+    text:"We will integrate environmental and social principles in our businesses, ensuring that what comes from the people goes back to the people many times over.    ",
+  }
+]
