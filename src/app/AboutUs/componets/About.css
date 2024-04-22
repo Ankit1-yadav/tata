@@ -56,25 +56,3 @@ p{
     background-color: blue;
     margin: 10px;
 }
-
-.footerimg {
-    height: 80px;
-    margin-bottom: 44px;
-    margin-top: 46px;
-    width: 195px;
-}
-
- .footercontent {
-    background-color: #fff;
-    border: 1px solid #fff;
-    color: #000;
-    margin-right: 0;
-}
-.new {
-    width:60%;
-}
-
-.new1 a:hover {
-    background-color: #fff;
-    color: #0d6efd !important;
-  }
