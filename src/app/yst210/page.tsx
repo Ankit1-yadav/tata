@@ -4,7 +4,7 @@ import Product from '../AboutUs/componets/Product'
 import Abouty from './componets/Abouty'
 import Benefits from './componets/Benefits'
 import Slider from './componets/Slider'
-import Table from './componets/Table'
+// import Table from './componets/Table'
 
 const page = () => {
   return (
@@ -14,7 +14,7 @@ const page = () => {
     <Abouty/>
     <Benefits/>
     <Slider/>
-    <Table/>
+    {/* <Table/> */}
     <Product/>
    
     </div>
