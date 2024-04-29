@@ -383,3 +383,40 @@ export const PRODUCT =[
     text:"We will integrate environmental and social principles in our businesses, ensuring that what comes from the people goes back to the people many times over.    ",
   }
 ]
+
+export const BENEFITS =[
+  {
+      img: "/aby1.png",
+      title: "SUSTAINABLE",
+      text1:"‘Tata Structura’ is now Green-Pro certified by CII-IGBC - the only player in the tubes industry to have the certification.",
+  },
+  {
+    img: "/architect.png",
+    title: "ARCHITECTURAL",
+    text1:"Good surface finish - ideal for painting that achieves a good look and feel",
+    text2:"Smooth profile of hollow sections enhances the aesthetic appeal.",
+    text3:"Best suited for architecturally exposed steel.",
+    text4:"Easy to bend into interesting forms and shapes.",
+  }, 
+  {
+    img: "/aby2.png",
+    title: "STRUCTURAL",
+    text1:"Superior sectional properties of Tata-Structura steel tubes compared to any open section allows huge material savings (up to 40% savings).",
+    text2:"Consistent yield strength of Yst 210 makes it a reliable choice for structural systems.",
+    text3:"Low carbon content (<0.12%) imparts good weldability and creates strong joints.",
+    text4:"Strong weld-line keeps the profile in shape and more durable.",
+  }, 
+  {
+    img: "/fabricator.png",
+    title: "FABRICATION AND MAINTENANCE",
+    text1:"Tata Structura possesses very low tramp impurities like Phosphorous and Sulphur.",
+    text11:"Tata Structura possesses very low tramp impurities like Phosphorous and Sulphur.",
+    text12:"Tata Structura possesses very low tramp impurities like Phosphorous and Sulphur.",
+    text13:"Tata Structura possesses very low tramp impurities like Phosphorous and Sulphur.",
+    text2:"Better ductility hence it can be formed easily without damaging the weld-line.",
+    text3:"Elimination of gusset plates and direct member-to-member connections.",
+    text4:"Well-rounded corners ensure maintaining uniform coating thickness.",
+    text5:"Well-rounded corners ensure maintaining uniform coating thickness.",
+
+  }
+]

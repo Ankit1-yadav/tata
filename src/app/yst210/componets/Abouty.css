@@ -1,0 +1,26 @@
+.btn2 a:hover{
+    color: Blue !important;
+    background-color: #fff;
+    font-weight: 800;
+}
+.blue-cir, span.circle-dede {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+span.circle-dede {
+    border: 1px solid #3d7edb;
+    border-radius: 50%;
+    height: 7px;
+    margin-right: 5px;
+    margin-top: 4px;
+    padding: 4px !important;
+    width: 7px;
+}
+.blue2{
+border-color: rgb(32, 135, 213) !important;
+}
+
+li{
+margin: 8px;
+}

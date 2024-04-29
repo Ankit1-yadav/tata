@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Abouty.css"
 
 const Abouty = () => {
   return (
-    <div className='bg-blue-500'>
+    <div className='bg-blue-500 pb-5'>
       <div className="container">
     <div className="row">
         <div className="section1content mt-5">
@@ -20,6 +21,13 @@ const Abouty = () => {
                 compared to open sections like angles and channels etc. The surface of Tata Structura steel tubes is
                 also ideal to achieve a smooth surface finish that provides a superior look and feel for the end
                 application.</p>
+        </div>
+    </div>
+    <div className="row mx-auto">
+        <div className="flex justify-center btn2">
+        <a className="border px-4 py-3 m-2 text-white text-xs no-underline" href="/yst210-rhs">RHS</a>
+        <a className="border px-4 py-3 m-2 text-white text-xs no-underline" href="/yst210-rhs">SHS</a>
+        <a className="border px-4 py-3 m-2 text-white text-xs no-underline" href="/yst210-rhs">CHS</a>
         </div>
     </div>
     </div>
