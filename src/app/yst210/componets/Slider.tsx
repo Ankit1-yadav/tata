@@ -12,13 +12,13 @@ import 'swiper/css/navigation';
 // import './styles.css';
 
 // import required modules
-import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 export default function App() {
     return (
         <>
             <div className='bg-blue-500'>
-                <div className="mx-auto pt-16 w-[55%]">
+                <div className="mx-auto pt-16 w-[55%] pb-5">
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={10}

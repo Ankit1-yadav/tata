@@ -24,3 +24,11 @@ border-color: rgb(32, 135, 213) !important;
 li{
 margin: 8px;
 }
+
+td, th {
+    border: 2px solid #000 !important;
+    padding:0px 10px;
+}
+.table-responsive{
+    text-align: center;
+}
