@@ -10,7 +10,7 @@ import Product from '../AboutUs/componets/Product'
 const page = () => {
   return (
     <div>
-    <Hero title="TATA STRUCTURA YST 355" subtitle="Tata Structura YST 355 is a brand of galvanized steel hollow sections from the house of Tata Steel.
+    <Hero title="TATA STRUCTURA YST  355" subtitle="Tata Structura YST 355 is a brand of galvanized steel hollow sections from the house of Tata Steel.
 
 " img="/yst355.jpg" />
  <Abouty/>
