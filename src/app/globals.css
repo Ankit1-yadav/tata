@@ -1050,4 +1050,9 @@ button span {
   width: 100% !important;
 }
 
+.dropdown a {
+  color: white;
+  text-decoration: underline;
+  padding: 10px 20px;
+}
 

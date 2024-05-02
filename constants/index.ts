@@ -420,3 +420,34 @@ export const BENEFITS =[
 
   }
 ]
+
+export const DOOR =[
+  {
+      img: "/window.png",
+      title: "Window Frames",
+  },
+  {
+    img: "/grilles.png",
+    title: "grilles",
+  },
+  {
+    img: "/CarSheds.png",
+    title: "Car Sheds",
+  },
+  {
+    img: "/Fences.png",
+    title: "Fences",
+  },
+  {
+    img: "/Pergolas.png",
+    title: "Pergolas",
+  },
+  {
+    img: "/Cattle.png",
+    title: "Cattle,Poultry,Barn Sheds",
+  },
+  {
+    img: "/Furniture.png",
+    title: "Furniture",
+  },
+]
