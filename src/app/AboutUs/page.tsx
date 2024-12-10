@@ -10,7 +10,7 @@ import Product from './componets/Product'
 const page = () => {
   return (
     <div>
-      <Hero title="About Us" subtitle="Tata Steel’s Tubes Strategic Business Unit manufactures structural steel tubes under the brand name of 'Tata Structura'. Made of the finest hot rolled steel coils from Tata Steel, the Tata Structura Steel Hollow sections are amongst the best construction products across the country." img="/AboutUs.jpg"/>
+      <Hero title="About Us" subtitle="Tata Steel’s Tubes Strategic Business Unit manufactures structural steel tubes under the brand name of 'Tata Structura'. Made of the finest hot rolled steel coils from Tata Steel, the Tata Structura Steel Hollow sections are amongst the best construction products across the country.ṭest" img="/AboutUs.jpg"/>
       <About/>
       <Certificates/>
       <About_slider/>
