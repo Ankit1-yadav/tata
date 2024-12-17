@@ -6,8 +6,7 @@ import NewHero from "./componets/NewHero";
 import Sections from "./componets/Sections";
 import Projects from "./componets/Projects";
 import Fabrication from "./componets/Fabrication";
-import New from "./componets/New";
-import Test1 from "./componets/Test1";
+
 
 export default function Home() {
   return (
