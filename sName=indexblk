@@ -1,0 +1,25 @@
+[1mdiff --git a/src/app/componets/Banner.tsx b/src/app/componets/Banner.tsx[m
+[1mindex a371bb3..d066aaa 100644[m
+[1m--- a/src/app/componets/Banner.tsx[m
+[1m+++ b/src/app/componets/Banner.tsx[m
+[36m@@ -23,7 +23,7 @@[m [mconst Banner = () => {[m
+           {FEATURES.map((data) => ([m
+             <div className="col-md-3 col-6"><a className="" href="#">[m
+               <div className="indexblk">[m
+[31m-                <h2>test</h2>[m
+[32m+[m[32m                <h2>test again</h2>[m
+                 <img src={data.icon} className="mx-auto" alt="" />[m
+                 <h2 className="text-black py-[15px] text-[18px] uppercase">{data.title}</h2>[m
+               </div>[m
+[1mdiff --git a/src/app/componets/NewHero.tsx b/src/app/componets/NewHero.tsx[m
+[1mindex fb493b6..235675e 100644[m
+[1m--- a/src/app/componets/NewHero.tsx[m
+[1m+++ b/src/app/componets/NewHero.tsx[m
+[36m@@ -54,6 +54,7 @@[m [mconst NewHero = () => {[m
+                         >[m
+                         <div className="mt-[40vh] mx-5 lg:mx-[10vh] text-white lg:w-1/2">[m
+                             <div className="mb-3">[m
+[32m+[m[32m                              <h2>hello</h2>[m
+                             <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8">{data.title}</h4>[m
+                             </div>[m
+                             <p className="lg:text-xl">{data.text}</p>[m
