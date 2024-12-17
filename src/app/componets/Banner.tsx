@@ -23,7 +23,6 @@ const Banner = () => {
           {FEATURES.map((data) => (
             <div className="col-md-3 col-6"><a className="" href="#">
               <div className="indexblk">
-                <h2>test again</h2>
                 <img src={data.icon} className="mx-auto" alt="" />
                 <h2 className="text-black py-[15px] text-[18px] uppercase">{data.title}</h2>
               </div>

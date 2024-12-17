@@ -54,7 +54,6 @@ const NewHero = () => {
                         >
                         <div className="mt-[40vh] mx-5 lg:mx-[10vh] text-white lg:w-1/2">
                             <div className="mb-3">
-                              <h2>hello</h2>
                             <h4 className="lg:text-4xl uppercase font-bold underline leading-relaxed lg:underline-offset-8">{data.title}</h4>
                             </div>
                             <p className="lg:text-xl">{data.text}</p>
