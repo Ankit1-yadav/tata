@@ -12,7 +12,6 @@ import Test1 from "./componets/Test1";
 export default function Home() {
   return (
     <>
-  <Test1/>
  
     <NewHero/>
   
